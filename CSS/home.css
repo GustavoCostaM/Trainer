@@ -1,0 +1,190 @@
+
+@media only screen and (max-width: 480px) {
+/*@import url('https://fonts.googleapis.com/css2?family= Open+Sans:wght@300;400;700família= Open+Sans:wght@300;400;700;800 & =swap');
+*/
+@import
+url('https://fonts.googleapis.com/css2?family= Inter:wght@100;400;700;900 & display=swap');
+#logo{
+width: 60%;
+display: block;
+margin: 1.5% auto 0;
+}
+
+hr{
+  height: 2px;
+  background-color: #797979;
+  border: none;
+
+}
+
+#menuLoginPesquisa{
+  width: 95%;
+  margin: auto;
+}
+#menuLogin{
+  display: grid;
+  grid-template-columns: 50%;
+  grid-auto-rows: 26px;
+}
+
+#menu{
+  height: 100%;
+  align-self: center;
+  border-radius: 1px;
+
+}
+
+#bLogin{
+  text-align: right;
+  grid-column-start: 2;
+  align-self: center;
+  height: 100%;
+  
+}
+
+button.login {
+    width: 50%;
+    padding: 2px ;
+    border: none;
+    border-radius: 6px;
+    background-color: #f76c35;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    height: 100%;
+  }
+
+ #busca{
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 6px;
+    height: 30px;
+    margin: 10px 0;
+  
+  }
+
+  #lupa{
+    background-color: #f76c35;
+    height: 100%;
+    width: 10%;
+    font-size: 200%;
+    float:left;
+    border-radius: 6px 0 0 6px;
+    text-align: center;
+  }
+
+  #pesquisa{
+    background-color:transparent;
+    font-size:18px;
+    font-family: Arial, sans-serif;
+    border:none;
+    height: 100%;
+    width: 80%;
+    padding: 0 0 0 10px;
+    outline: none;
+  }
+
+#carrossel {
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    height: 100%;
+}
+
+#carrossel li {
+    list-style: none;
+    position: absolute;
+}
+
+#carrossel img {
+    margin: auto;
+    width: 100%;
+    vertical-align: top;
+}
+
+#carrossel input {
+  display: none;
+}
+
+#carrossel label {
+  background-color: white;
+  bottom: 10px;
+  cursor: pointer;
+  display: block;
+  height: 8px;
+  position: absolute;
+  width: 8px;
+  z-index: 10;
+  border-radius: 2px;
+}
+
+#carrossel li:nth-child(1) label {
+  left: 45%;
+}
+
+#carrossel li:nth-child(2) label {
+  left: 50%;
+}
+
+#carrossel li:nth-child(3) label {
+  left: 55%;
+}
+
+#carrossel img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#carrossel li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+main{
+  width: 95%;
+  margin: auto;
+}
+
+#oqÉ{
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  color: #000000;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 80%;
+  letter-spacing: -1px;
+}
+
+#oqÉ span{
+  color: #f76c35;
+}
+
+#txtImg{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100%;
+  grid-template-rows: 150px;
+}
+
+#txtImg p{
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-weight: 100;
+  line-height: 1.15;
+}
+#txtImg div{
+  text-align: center;
+}
+#txtImg img{
+  height: 100%;
+}
+
+#logoRodape{
+    width: 100%;
+}
+}
