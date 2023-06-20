@@ -67,7 +67,7 @@ button.login {
     background-color: #f76c35;
     height: 100%;
     width: 12%;
-    font-size: 200%;
+    font-size: 250%;
     float:left;
     border-radius: 6px 0 0 6px;
     text-align: center;
@@ -159,13 +159,14 @@ main{
   letter-spacing: -1px;
 }
 
-#oqÉ span{
+#oqÉ span, #txtDesculpas span, main section h5 span{
   color: #f76c35;
 }
 
 #txtImg{
   display: flex;
   align-items: center;
+  margin-bottom: 2%;
 }
 
 :root {
@@ -176,15 +177,46 @@ main{
 #txtImg p{
   text-align: left;
   font-family: 'Open Sans', 'Inter', sans-serif;
-  font-size: 110%;
+  font-size: 100%;
   font-weight: 300;
   line-height: 1.25;
 }
 #txtImg div{
   text-align: center;
 }
-#txtImg img{
-  height: 100%;
+ 
+#desculpas{
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', 'Inter', sans-serif;
+  margin-bottom: 2%;
+}
+
+#txtDesculpas h5{
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 100%;
+  line-height: 1.5
+}
+
+
+#txtDesculpas p{
+  text-align: right;
+  font-family: 'Open Sans', 'Inter', sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+main section h5{
+  text-align: center;
+  font-family: 'Open Sans', 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+#personais h3{
+  font-size: 200%;
 }
 
 #logoRodape{
