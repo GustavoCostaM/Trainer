@@ -1,288 +1,132 @@
-#svg {
-    width: 200px;
-    height: 32px;
-    box-sizing: border-box;
-  }
-  #line {
-    width: 320px;
-    height: 1px;
-    transform: rotate(-0.07984708160226085deg);
-    padding: 2px 2px 2px 2px;
-    border: 1px solid #797979;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-  }
-  #realize-o-login {
-    width: 158px;
-    height: 24px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Open Sans Bold", "Open Sans", "Open Sans", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #usuário {
-    width: 140px;
-    height: 40px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 5px;
-    border-bottom: 1px solid #797979;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    font-family: "Open Sans Bold", "Open Sans", "Open Sans", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    text-align: center;
-    line-height: normal;
-  }
-  #personal {
-    width: 140px;
-    height: 40px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 5px;
-    border-bottom: 1px solid #797979;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    font-family: "Open Sans Bold", "Open Sans", "Open Sans", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    text-align: center;
-    line-height: normal;
-  }
-  #e-mail {
-    width: 52px;
-    height: 19px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Open Sans Bold", "Open Sans", "Open Sans", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #exemplo-email-com {
-    width: 128px;
-    height: 18px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #rectangle {
-    width: 318px;
-    height: 27px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 8px;
-    border: 1px solid #f67440;
-    background-color: rgba(245, 154, 35, 0);
-    box-sizing: border-box;
-  }
-  #senha {
-    width: 52px;
-    height: 19px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Open Sans Bold", "Open Sans", "Open Sans", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #rectangle {
-    width: 318px;
-    height: 27px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 8px;
-    border: 1px solid #f67440;
-    background-color: rgba(245, 154, 35, 0);
-    box-sizing: border-box;
-  }
-  #element {
-    width: 58px;
-    height: 18px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #entrar-com {
-    width: 71px;
-    height: 18px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #shape {
-    width: 24px;
-    height: 24px;
-    padding: 2px 2px 2px 2px;
-    background-color: #f76c35;
-    box-sizing: border-box;
-  }
-  #shape {
-    width: 24px;
-    height: 24px;
-    padding: 2px 2px 2px 2px;
-    background-color: #f67440;
-    box-sizing: border-box;
-  }
-  #shape {
-    width: 24px;
-    height: 24px;
-    padding: 2px 2px 2px 2px;
-    background-color: #f67440;
-    box-sizing: border-box;
-  }
-  #entrar {
-    width: 217px;
-    height: 33px;
-    background-color: #ffffff;
-  }
-  #ou-cadastre-se-aqui {
-    width: 139px;
-    height: 19px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Open Sans Semibold", "Open Sans", sans-serif;
-    font-weight: 600;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #svg {
-    width: 110px;
-    height: 18px;
-    box-sizing: border-box;
-  }
-  #line {
-    width: 329px;
-    height: 2px;
-    transform: rotate(-0.13218976502154683deg);
-    padding: 2px 2px 2px 2px;
-    border: 1px solid #797979;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-  }
-  #shape {
-    width: 24px;
-    height: 24px;
-    padding: 2px 2px 2px 2px;
-    background-color: #f76c35;
-    box-sizing: border-box;
-  }
-  #shape {
-    width: 29px;
-    height: 24px;
-    padding: 2px 2px 2px 2px;
-    background-color: #f67440;
-    box-sizing: border-box;
-  }
-  #shape {
-    width: 24px;
-    height: 24px;
-    padding: 2px 2px 2px 2px;
-    background-color: #f67440;
-    box-sizing: border-box;
-  }
-  #institucional {
-    width: 107px;
-    height: 21px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #sobre {
-    width: 35px;
-    height: 15px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #fale-conosco {
-    width: 78px;
-    height: 15px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #central-de-ajuda {
-    width: 96px;
-    height: 15px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #politicas-de-privaci {
-    width: 137px;
-    height: 15px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #corporativo {
-    width: 103px;
-    height: 21px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #indique-um-personal {
-    width: 118px;
-    height: 15px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
-  #divulgue-seu-trabalh {
-    width: 126px;
-    height: 15px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-    color: #333333;
-    text-align: left;
-    line-height: normal;
-  }
+@media only screen and (max-width: 480px) {
+  @import url('https://fonts.googleapis.com/css2?family= Open+Sans:wght@300;400;700família= Open+Sans:wght@300;400;700;800 & =swap');
+  @import url('https://fonts.googleapis.com/css2?family= Inter:wght@100;400;700;900 & display=swap');
   
+body{
+  background-color: #f9f9f9d1;
+}
+#logo{
+width: 60%;
+display: block;
+margin: 1.5% auto 0;
+}
 
+hr{
+  height: 2px;
+  background-color: #797979;
+  border: none;
 
+}
 
+main{
+  margin: auto;
+  text-align: center;
+  font-family: 'Open Sans', 'Inter', sans-serif;
+  font-weight: bold;
+}
 
+main h3{
+  font-weight: bold;
 
+}
+main form{
+  width: 70%;
+  margin: 5% auto 2% auto;
+  display: flex;
+  flex-direction: column;
+}
 
+main form label{
+  font-size: 80%;
+  margin-bottom: 2%;
+  align-self: flex-start;
+  text-transform: uppercase;
+  
+}
 
+main form input{
+  height: 20px;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  border-color: #f76c35;
+  border-radius: 6px;
+}
 
+#entrar{
+  height: 100%;
+  border: none;
+  border-radius: 6px;
+  background-color: #f76c35;
+  color: #ffffff;
+  width: 55%;
+  font-size:150%;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  align-self: center;
+}
 
+main div{
+  margin: auto;
+  width: 35%;
+  display: flex;
+  color: #f76c35;
+  font-size: 200%;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
 
+main h3 span, main a span{
+  color: #f76c35;
+}
+
+main a{
+  font-size: 80%;
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  width: 80%;
+  margin: 10% auto 5% auto;  
+  text-align: center;
+}
+#logoRodape{
+    width: 50%;
+}
+
+footer hr{
+  height: 1.5px;
+  color: #555555;
+}
+
+#icons{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  color: #f76c35;
+  font-size: 250%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+#link{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+#links h5{
+  font-family: 'Open Sans', 'Inter', sans-serif;
+  font-weight: bold;
+  margin-bottom: 5%;
+  font-size: 115%;
+}
+
+#links a{
+  color: #555555;
+  font-family: 'Open Sans', 'Inter', sans-serif;
+  text-decoration: none;
+  line-height: 1.5;
+}
+}
