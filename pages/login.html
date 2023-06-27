@@ -3,42 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link href='../CSS/login.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trainer</title>
 </head>
 <body>
-    <main>
-        <img src="Trainer v2.png">
-        <h3>REALIZE O LOGIN:</h3>
-        <button>Usuário</button>
-        <button>personal</button><br>
+    <header>
+        <a href="../index.html">
+        <img src="../imagens/trainer v2.svg" alt="logo" id="logo"></a>
+        <hr>
+    </header>
 
-        <h4>E-MAIL:</h4>
-        <input href="datatipe"><br>
-        <h4>SENHA:</h4>
-        <input href="datatipe"><br>
+    <main>    
+        <h3>REALIZE O <span>LOGIN:</span></h3>
 
-        <p>Entrar com:</p><br>
-        <i class='bx bxl-instagram'></i>
+        <form action="/login" method="post">
+        <label for="Email">E-mail:</label>
+        <input  type="email" placeholder="exemplo@email.com" ><br>
+        <label for="Senha">Senha:</label>
+        <input type="password"  placeholder="••••••••••"><br>
+        <input type="submit" value="Entrar" id="entrar">
+        </form>
+
+        <div>
         <i class='bx bxl-facebook-square'></i>
-        <i class='bx bxl-google'></i><br>
-        <button>ENTRAR</button><br>
-        <h6>Ou cadastre-se aqui!</h6><br>
-
-        <img src="Trainer v2,png"><br>
+        <i class='bx bxl-linkedin'></i>
+        <i class='bx bxl-google'></i>
+        </div>
+        <a href="cadastro.html">
+        Ou cadastre-se <span>aqui!</span></a><br>
+    </main>
+    
+   <footer>
+        <img src="../imagens/Trainer v2.svg" id="logoRodape"><br>
+        <hr>
+        <div id="icons">
             <i class='bx bxl-instagram'></i>
             <i class='bx bxl-twitter'></i>
-            <i class='bx bxl-facebook-square'></i><br>
+            <i class='bx bxl-facebook-square'></i>
+        </div>
+
+        <div id="link">
+            <div id="links">
             <h5>Institucional</h5>
             <a href="">Sobre</a><br>
             <a href="">Fale Conosco</a><br>
             <a href="">Central de ajuda</a><br>
             <a href="">Políticas de privacidade</a><br>
+            </div>
+
+            <div id="links">
             <h5>Corporativo</h5>
             <a href="">Indique um personal</a><br>
             <a href="">Divulgue seu trabalho</a><br>
-
-    </main>
+            </div>
+        </div>    
+    </footer>      
 </body>
 </html>
